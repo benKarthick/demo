@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="../Hotel - Copy/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+  * {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+a:link { 
+    text-decoration: none; 
+  } 
+
+.bg-sec1{
+    background: linear-gradient(90deg, #3C2632 10%, #324970 40%, #0C0E12 100% );
+}
+.bg-sec2{
+    background: linear-gradient(90deg, #2F4468, #3C2632);
+
+}
+.bg-hotel{
+    background-color: #a1c9a2;
+
+}
+.text-hotel{
+	color:#526d53 ;
+}
+
+
+
+
+
+
+.btn-clr{
+    background-color: #436295;
+}
+.btn-clr:hover{
+    background-color:#3C2632;
+    /* border-color: #3C2632; */
+    transform: translateY(-5px);
+    transition: 1s;
+}
+
+
+
+
+
+
+
+.showcase {
+    position: relative;
+    right: 0;
+    transition: .4s ease-in-out;
+    width: 100%;
+    z-index: 1;
+    background-color: var(--body-bg);
+}
+
+.showcase.active {
+    right: 300px;
+}
+
+
+
+
+</style>
+<body class="h-100 d-flex flex-column">
+  <section class="flex-grow-1 ">
+
+    <section class="bg-hotel  h-100 justify-content-center align-items-center d-flex flex-column">
+      <div>
+        <img src="../Hotel - Copy/logo.png" class="img-fluid mb-2" width="120">
+      </div>
+      <h5 class="text-center text-hotel">QUALITY INN VIHA KUMBAKONAM</h5>
+
+      <div class="text-center py-3">
+        <div class="">
+          <img src="../Hotel - Copy/restaurant.png" class="img-fluid mx-3" width="50">
+        </div>
+        <div class="text-center">
+          <h4 class=" text-center text-dark">Annalakshmi</h4>
+          <div class="">
+            <a class="btn btn-outline-success" href="order.html" target="">Menu</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center py-2">
+        <div class=" py-2">
+          <img src="../Hotel - Copy/bar.png" class="img-fluid mx-3" width="50">
+        </div>
+        <div>
+          <h4 class="text-dark text-center">THE BLACK LOUNGE BAR</h4>
+          <div class="">
+            <a class="btn btn-outline-success" href="order.html" target="">Menu</a>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="blink ">E-Pass Available</div>
+
+      <div class="blink_me">BLINK ME</div> -->
+
+   
+
+    </section>
+  
+  </section>
+
+
+
+
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="../Hotel - Copy/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
